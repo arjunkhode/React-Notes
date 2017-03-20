@@ -9,7 +9,7 @@ Take spotify for example, if Spotify were made in React, each song would be a co
 Every component in React can be rendered.
 When we render a component, it is displayed in whichever element it is rendered.
 So to think of it, we always have one 'root' element in our index.html. 
-This root is defined as a component in our js file and <Root/> is rendered in the 'main' element in HTML.
+This root is defined as a component in our js file and `<Root/>` is rendered in the 'main' element in HTML.
 
 	In our Index.js file:
 	```
