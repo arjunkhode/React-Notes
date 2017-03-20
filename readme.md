@@ -80,6 +80,8 @@ function Welcome() {
 export default Welcome;
 ```
 
+Once a component is exported, it can be imported by other components.
+
 ## Props
 
 Conceptually, components accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
