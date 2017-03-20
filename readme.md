@@ -17,7 +17,7 @@ We have `src` folder as a sibling of `public` folder.
 
 Components are the building blocks of a React app.
 A component is a single DOM element or it could be a group of DOM elements.
-Take spotify for example, if Spotify were made in React, each song would be a component, the search bar would be a component, the menu on the left would be a component as well as the entire display on the right could be one component. And finally, the entire window would be one component. Components can be nested.
+Take Spotify for example, if Spotify were made in React, each song would be a component, the search bar would be a component, the menu on the left would be a component as well as the entire display on the right could be one component. And finally, the entire window would be one component. Components can be nested.
 
 Every component in React can be rendered.
 When we render a component, it is displayed in whichever element it is rendered.
@@ -32,7 +32,7 @@ This renders the Root component in the div with the id of main in index.html
 
 ## Functional Vs Class based Components
 
-Components can be simple JavaScript functions.
+Components can be simple JavaScript functions. These are called functional components.
 
 ```
 	function Welcome() {
@@ -41,7 +41,7 @@ Components can be simple JavaScript functions.
 ```
 Everything inside the return function is JSX. JSX is used to write HTML making use of just JavaScript.
 
-Components can also be ES6 classes.
+Components can also be ES6 classes. These are called class based components.
 
 ```
 	class Welcome extends React.Component{
