@@ -4,7 +4,7 @@
 
 We first have `Package.json` which defines all the dependencies of react.
 
-We can `npm install` the package.json file to install all the other necessary components for react.
+We can `npm install` the package.json file to install all the necessary components for react.
 
 For react apps, we need index.html as usual, it is placed in the `public` folder.
 
@@ -44,13 +44,13 @@ Everything inside the return function is JSX. JSX is used to write HTML making u
 Components can also be ES6 classes. These are called class based components.
 
 ```
-	class Welcome extends React.Component{
-		render(){
-			return(
-				Hello!
-				);
-		}
+class Welcome extends React.Component{
+	render(){
+		return(
+			Hello!
+			);
 	}
+}
 ```
 
 Class based components have extra features, like STATE. Every class based component has a STATE.
