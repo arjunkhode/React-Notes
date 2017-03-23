@@ -2,11 +2,11 @@
 
 ## Structure of Files
 
-We first have `Package.json` which defines all the dependencies of react.
+We first have `Package.json` which defines all the dependencies of React.
 
-We can `npm install` the package.json file to install all the necessary components for react.
+We can `npm install` the package.json file to install all the necessary components for React.
 
-For react apps, we need index.html as usual, it is placed in the `public` folder.
+For React apps, we need index.html as usual, it is placed in the `public` folder.
 
 We have `src` folder as a sibling of `public` folder.
 
