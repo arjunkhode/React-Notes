@@ -122,8 +122,15 @@ class Welcome extends React.Component {
 STATE must be initialized in constructor
 
 Remember to pass props as argument to the constructor and to super
+```
+class Welcome extends React.Component{
+	constructor(props){
+		super(props);
+	}
+}
+```
 
-then define a state
+then define a state within the constructor
 
 ```
 this.state = {key: value};
