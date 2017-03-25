@@ -32,14 +32,13 @@ This renders the Root component in the div with the id of main in index.html
 
 ## Functional Vs Class based Components
 
-Components can be simple JavaScript functions. These are called functional components.
+Components can be simple JavaScript functions. These are called functional components. Also, they don't care about lifecycle methods or have their own internal state.
 
 ```
 	function Welcome() {
 		return(Hello!);
 	}
 ```
-Everything inside the return function is JSX. JSX is used to write HTML making use of just JavaScript.
 
 Components can also be ES6 classes. These are called class based components.
 
